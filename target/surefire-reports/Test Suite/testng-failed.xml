@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test Set(failed)" verbose="0">
+    <classes>
+      <class name="TestCases.CareersChecker">
+        <methods>
+          <include name="tearDownReport"/>
+          <include name="captureScreenshotOnFailure"/>
+          <include name="careersInfoAssertion"/>
+          <include name="tearDown"/>
+          <include name="setUpBrowser"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- TestCases.CareersChecker -->
+    </classes>
+  </test> <!-- Test Set(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->
